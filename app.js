@@ -29,7 +29,7 @@ app.get('/addnewplace', (req, res) => {
 });
 
 app.get('/bookticket', (req, res) => {
-    res.render('User/Book_Ticket');
+    res.render("User/Book_Ticket");
 });
 
 app.get('/browseplace', (req, res) => {
